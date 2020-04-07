@@ -1,5 +1,11 @@
 if key == "FreeKey" then
-    if game.PlaceId == 4704006941 then
+    if game.PlaceId == 4704006941 then -- Blade Throwing Simulator
         loadstring(game:HttpGet("https://raw.githubusercontent.com/AntiMatterRoblox/LazyUI/Games/BladeThrowingSim", true))()
+    elseif game.PlaceId == 4639265300 then -- Rebirth Simulator
+        loadstring(game:HttpGet("https://github.com/AntiMatterRoblox/LazyUI/blob/master/RebirthSimulator", true))()
+    elseif game.PlaceId == 3787906236 then -- Balloon Simulator 2
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AntiMatterRoblox/LazyUI/master/BalloonSim2", true))()
+    elseif game.PlaceId == 4058282580 then -- Boxing Simulator
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AntiMatterRoblox/LazyUI/Games/BoxingSim2", true))()
     end
 end
